@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="./images/pizza-306495_1280.png">
+    
+    <title>Order here</title>
+</head>
+<body>
+
+    <nav>
+        
+        <ul>
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="order.html">Order here</a></li>
+        </ul>
+    </nav><br>
+   
+    <fieldset>
+    <form>
+        <h1 style="text-align: center;"> Pizza Order</h1>
+        <label>Number of Pizzas:</label>
+        <input type="number" class="j1" id="numberOfPizzas" name="numberOfPizzas" min="1" required><br><br>
+
+        <label>Size:</label>
+        <input type="radio"  class="j2"id="smallSize" name="size" value="Small" required>
+        <label for="smallSize">Small</label>
+        <input type="radio" class="j2"id="mediumSize" name="size" value="Medium">
+        <label for="mediumSize">Medium</label>
+        <input type="radio"  class="j2"id="largeSize" name="size" value="Large">
+        <label for="largeSize">Large</label><br><br>
+
+        <!--Apply the checkbox for differents options -->
+        <label>Shape:</label>
+        <input type="checkbox" id="roundShape" name="shape" value="Round" required>
+        <label for="roundShape">Round</label>
+        <input type="checkbox" id="squareShape" name="shape" value="Square">
+        <label for="squareShape">Square</label><br><br>
+
+<!--Apply the checkbox for differents options -->
+        <label>Toppings:</label>
+        <input type="checkbox" id="" name="" value="Bacon" required>
+        <label for="Bacon">Bacon</label>
+        <input type="checkbox" id="" name="" value="Tomatoes">
+        <label for="Tomatoes">Tomatoes</label>
+        <input type="checkbox" id="" name="" value="mustard">
+        <label for="Mustard">Mustard</label><br><br>
+
+<!--Apply select option for thin crust and deep dish-->
+        <label>Crust type:</label>
+        <select id="crust type" name="crust type" required><br>
+            
+            <option value="thin crust">Thin crust</option>
+            <option value="deep dish">Deep dish</option><br>
+        </select><br>
+
+        <!--Characters for the form-->
+        <label>Phone:</label>
+        <input type="text"  class="j1"maxlength="10"><br>
+        <label>Email:</label>
+        <input typr="Email" class="j1"><br>
+        <label>Message:</label><br>
+        <textarea id="message"></textarea><br>
+
+        <button>Submit</button>
+    </form>
+    </fieldset>
+    <footer class="footer">&copy;Copyright Julian Perez</footer>
+
+
+</body>
+</html>
